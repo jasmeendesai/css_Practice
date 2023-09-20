@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .container { */
+    /* border: 2px dashed red; */
+    /* border-top: 5px solid green; */
+    /* border-top-width: 5px; */
+    /* border-top-style: ridge; */
+    /* border-top-style: outset; */
+    /* border-top-style: double; */
+    /* border-top-color: green;
+    border-right: 10px dotted blue; */
+    /* font-size: 1.5rem; */
+    /* margin: 1.5em;
+    padding: 1.5em; */
+    /* margin: 1.5rem; */
+    /* margin-top: 1.5rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 4rem; */
+    /* //top right bottom left */
+    /* margin: 1.5rem 2rem 3rem 4rem;  */
+    /* //top left&right bottom */
+    /* margin: 1.5rem 2rem 2rem;  */
+    /* top&bottom left&right */
+    /* margin: 1.5rem 4rem;  */
+    /* margin: 1.5rem;
+    padding: 1.5rem; */
+    /* padding: 1.5rem 2rem 3rem 4rem; */
+    /* padding-top: 1.5rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 3rem; */
+/* } */
+
+.container{
+    border: 10px double red;
+    font-size: 1.5rem;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    outline: 5px solid purple;
+    /* outline-offset: 5px; */
+    outline-offset: -20px;
+}
+
+.circle {
+    margin: 3rem auto;
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    border: 2px solid black;
+    border-radius: 50px;
+    outline: 2px solid red;
+    outline-offset: 0.25rem;
+}

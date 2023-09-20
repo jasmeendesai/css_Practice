@@ -1,0 +1,84 @@
+/* ==============>p tag<============== */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); */
+
+
+/* body{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+} */
+
+/* main{
+    background-color: aqua;
+    width: 50%;
+}
+p{
+    background-color: lightgray;
+    margin: 100px 50px;
+} */
+/* p{
+    background-color: lightgray;
+} */
+
+/* .opposite{ */
+    /* background-color: #333;
+    color: whitesmoke; */
+    /* margin-top: 100px; */
+    /* margin-bottom: 100px; */
+    /* height: 100px; */
+    /* padding: 1rem; */
+    /* padding: 4rem; */
+/* } */
+
+
+/* .opposite{ */
+    /* display: block; */
+    /* display: inline; */
+    /* display: inline-block;
+    background-color: #333;
+    color: whitesmoke;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 100px;
+    padding: 4rem; */
+/* } */
+
+
+/* ==============>nav tag<============== */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    /* display: none; */
+    list-style-type: none;
+    padding: 0.5rem;
+    text-align: right;
+    background-color: #000;
+    margin: 0;
+}
+
+li{
+    /* display: none; */
+    display: inline-block;
+    margin-inline: 0.5rem;
+}
+
+li a{
+    color: white;
+    text-decoration:none;
+}
+
+li a:hover, li a:focus{
+    text-decoration:underline;
+}

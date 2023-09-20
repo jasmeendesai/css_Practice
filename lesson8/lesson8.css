@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body{
+    padding: 5% 10%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+ol{
+    /* list-style-type: upper-roman; */
+    /* list-style-type: upper-alpha; */
+    /* list-style-type: none; */
+     /* color: red; */
+    list-style-type: lower-alpha;
+    padding: 0;
+}
+
+ul{
+    list-style-type: square;
+    text-align: center;
+    list-style-position: inside;
+    color: red;
+    line-height: 1.5;
+    /* list-style-image: url('./lesson1/photos/photo1.jpg'); */
+    /* list-style: square url('./lesson1/photos/photo1.jpg') inside; */
+}
+/* 
+li{
+    color: blue;
+} */
+
+/* ul li{
+    color: blue;
+} */
+
+ul li:nth-child(odd){
+    color: red;
+}
+
+/* ::marker{ */
+    /* color: #000; */
+    /* color: #f00;
+    font-family: 'Times New Roman', Times, serif;
+    content: 'Only $5 >>  '; */
+/* } */
+
+ul ::marker{
+    color: #f00;
+    font-family: 'Times New Roman', Times, serif;
+    content: 'Only $5 >>  ';
+}
